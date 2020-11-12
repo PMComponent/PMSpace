@@ -37,6 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.dependency 'FMDB'
-   s.dependency 'MBProgressHUD'
+  # s.frameworks = 'UIKit', 'MapKit'
+    s.dependency 'MBProgressHUD'
+	s.dependency 'FMDB'
 end
